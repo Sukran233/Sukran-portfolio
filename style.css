@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+body.dark-mode {
+  --bg: #111;
+  --text: #f0f0f0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0066cc;
+  color: white;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  background: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.social-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0066cc;
+}
